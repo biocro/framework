@@ -1,0 +1,14 @@
+The BioCro C++ framework as a whole is distributed under version 2 or greater of
+the GNU General Public License (GPL).
+
+Any distributors that combine and distribute commercially licensed software with
+BioCro software and do not wish to distribute the source code for the
+commercially licensed software under version 2 or greater of the GNU GPL must
+enter into a commercial license agreement with the authors.
+
+The functions declared in `R_helper_functions.h` use a portion of the Rinternals
+software library, which is licensed under version 2.1 or greater of the GNU
+Lesser General Public License.
+
+The BioCro C++ framework uses a portion of the Boost software library, which is
+licensed under version 1.0 of the Boost License.
