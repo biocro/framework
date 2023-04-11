@@ -16,7 +16,7 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
-# UNRELEASED
+# BioCro C++ Framework VERSION 1.0.0
 
 - This is the first version of the standalone BioCro C++ framework. Previously,
   this code had been included as part of the BioCro R package source code.
