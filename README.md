@@ -36,5 +36,5 @@ which includes documentation for the C++ framework.
 
 ### License
 
-The BioCro C++ framework is licensed under version 2.0 or greater of the GNU
-General Public License.
+The BioCro C++ framework is licensed under version 3 or greater of the GNU
+Lesser General Public License (LGPL).
