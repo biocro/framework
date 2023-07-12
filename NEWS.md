@@ -16,6 +16,16 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
+# BioCro C++ Framework VERSION 1.1.0
+
+- Two new values were added to the `physical_constants` namespace (defined in
+  `constants.h`: `dr_stomata` and `dr_boundary`.
+- Several new functions for finding the roots of quadratic equations were added
+  (see `quadratic_root.h` and `quadratic_root.cpp`).
+- Both overloaded versions of `dynamical_system::update_drivers` were updated to
+  prevent out-of-bounds errors when accessing vector elements, an important bug
+  fix.
+
 # BioCro C++ Framework VERSION 1.0.0
 
 - This is the first version of the standalone BioCro C++ framework. Previously,

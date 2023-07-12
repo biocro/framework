@@ -37,4 +37,8 @@ which includes documentation for the C++ framework.
 ### License
 
 The BioCro C++ framework is licensed under version 3 or greater of the GNU
-Lesser General Public License (LGPL).
+Lesser General Public License (LGPL), while the BioCro R package is licensed
+under the MIT license. This scheme allows people to freely develop models for
+any use (public or private) under the MIT license, but any changes to the
+framework that assembles and solves models must make source code changes
+available to all users under the LGPL.
