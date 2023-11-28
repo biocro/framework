@@ -11,7 +11,7 @@ _in silico Plants_
 The BioCro framework is typically accessed from R using the BioCro R package,
 rather than directly from its C++ code. Detailed information about installing
 and using the R package is available at the
-[ebiomodeling/biocro](https://github.com/ebimodeling/biocro) GitHub repository.
+[biocro/biocro](https://github.com/biocro/biocro) GitHub repository.
 It is also possible to use BioCro without the R package; however, instructions
 for using BioCro without the R package are not available at this time.
 
@@ -24,15 +24,15 @@ included with the BioCro R package discussed
 [above](#using-the-biocro-framework).
 
 ### Making contributions
-Please see the
-[contribution guidelines](https://github.com/ebimodeling/biocro/blob/main/developer_documentation/contribution_guidelines.md)
-before submitting changes.
+Please see the contribution guidelines before submitting changes.
+These may be found in Chapter One of the _Developer's Manual_ on the
+[public BioCro Documentation web site](https://biocro.github.io).
 
 ### Software Documentation
 
-See the
-[BioCro Documentation website](https://ebimodeling.github.io/biocro-documentation/),
-which includes documentation for the C++ framework.
+See the [public BioCro Documentation web
+site](https://biocro.github.io), which includes documentation for the C++
+framework.
 
 ### License
 
