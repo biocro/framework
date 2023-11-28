@@ -16,6 +16,11 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
+# BioCro C++ Framework VERSION 1.1.1
+
+- Updated README with links to the new stable location for the BioCro R
+  package and its documentation
+
 # BioCro C++ Framework VERSION 1.1.0
 
 - Two new values were added to the `physical_constants` namespace (defined in
