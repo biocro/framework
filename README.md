@@ -24,6 +24,7 @@ included with the BioCro R package discussed
 [above](#using-the-biocro-framework).
 
 ### Making contributions
+
 Please see the contribution guidelines before submitting changes.
 These may be found in Chapter One of the _Developer's Manual_ on the
 [public BioCro Documentation web site](https://biocro.github.io).
