@@ -95,7 +95,5 @@ state_map state_map_from_names(name_list_type names)
     return m;
 }
 
-state_map abs(state_map x);
-
 #endif
 
