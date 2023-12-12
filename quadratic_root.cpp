@@ -1,11 +1,10 @@
-#include <cmath>        // for std::abs, sqrt
+#include <cmath>        // for fabs, sqrt
 #include <algorithm>    // for std::max, std::min
 #include <stdexcept>    // for std::range_error, std::logic_error
 #include "constants.h"  // for eps_zero
 #include "quadratic_root.h"
 
 using calculation_constants::eps_zero;
-using std::abs;
 using std::logic_error;
 using std::max;
 using std::min;
@@ -67,7 +66,7 @@ double quadratic_root(
     double c,
     quadratic_root_type root_type)
 {
-    if (abs(a) < eps_zero) {
+    if (fabs(a) < eps_zero) {
         return -c / b;
     } else {
         double const root_term = b * b - 4 * a * c;
