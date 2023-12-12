@@ -16,6 +16,12 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
+# BioCro C++ Framework VERSION 1.1.2
+
+- Replaced `std::abs` by `fabs` in `quadratic_root.cpp` since `std::abs` is for
+  integer types
+- Removed un-implemented overloaded `abs` defined in `state_map.h`
+
 # BioCro C++ Framework VERSION 1.1.1
 
 - Updated README with links to the new stable location for the BioCro R

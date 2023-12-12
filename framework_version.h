@@ -5,7 +5,7 @@
 
 namespace biocro_framework
 {
-static const std::string version = "1.1.1";
+static const std::string version = "1.1.2";
 }
 
 #endif
