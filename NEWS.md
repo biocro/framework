@@ -16,6 +16,11 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
+# BioCro C++ Framework VERSION 1.1.3
+
+- Replaced `fabs` by `std::abs` in `quadratic_root.cpp` and
+  `numerical_jacobian.h` since `std::abs` is more correct for C++ code
+
 # BioCro C++ Framework VERSION 1.1.2
 
 - Replaced `std::abs` by `fabs` in `quadratic_root.cpp` since `std::abs` is for
