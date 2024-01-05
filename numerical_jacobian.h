@@ -1,7 +1,7 @@
 #ifndef NUMERICAL_JACOBIAN_H
 #define NUMERICAL_JACOBIAN_H
 
-#include <cmath>        // for fabs, pow
+#include <cmath>        // for std::abs, pow
 #include <algorithm>    // for std::max
 #include <memory>       // for std::shared_ptr
 #include "constants.h"  // for calculation_constants::eps_deriv
@@ -128,7 +128,7 @@ void calculate_jacobian(
         // Determine the step size h by taking a fraction of the absolute value
         // of x[i]. Set a minimum value for h in case x[i] is zero or very
         // small, since we don't want to divide by zero.
-        abs_xi = fabs(x[i]);
+        abs_xi = std::abs(x[i]);
         h = std::max(abs_xi * calculation_constants::eps_deriv, min_h);
 
         // Ensure that the step size h is close to this value but is exactly
