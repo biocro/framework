@@ -1,7 +1,11 @@
 #ifndef BOOST_ODE_SOLVERS_H
 #define BOOST_ODE_SOLVERS_H
 
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #include <boost/numeric/ublas/vector.hpp>
+#pragma GCC diagnostic pop
+
 #include "../ode_solver.h"
 #include "../dynamical_system_caller.h"
 #include "../state_map.h"  // for state_vector_map
