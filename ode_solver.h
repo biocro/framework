@@ -2,7 +2,12 @@
 #define ODE_SOLVER_H
 
 #include <vector>
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
 #include <boost/numeric/odeint.hpp>  // For use with ODEINT
+#pragma GCC diagnostic pop
+
 #include "state_map.h"
 #include "dynamical_system.h"
 

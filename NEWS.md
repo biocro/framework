@@ -16,6 +16,12 @@ Subsequent commits will then include a new "Unreleased" section in preparation
 for the next release.
 -->
 
+# Unreleased
+
+- Added pragmas to two C++ source code files to suppress warnings
+  about deprecated declarations in the Boost library code when C++17
+  is used for compilation.
+
 # BioCro C++ Framework VERSION 1.1.3
 
 - Replaced `fabs` by `std::abs` in `quadratic_root.cpp` and
