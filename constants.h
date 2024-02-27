@@ -64,7 +64,7 @@ constexpr double joules_per_calorie = 4.184;  // J / cal
  * Equation B16 in
  * [von Caemmerer & Farquhar "Some relationships between the biochemistry of
  * photosynthesis and the gas exchange of leaves. Planta 153, 376–387 (1981)]
- * (http://dx.doi.org/10.1007/BF00384257).
+ * (https://dx.doi.org/10.1007/BF00384257).
  */
 namespace physical_constants
 {
