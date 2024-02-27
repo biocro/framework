@@ -41,7 +41,7 @@
  *  \f$ \vec{f} \f$. For our purposes, the additional computational costs
  *  inherent to these methods do not justify the marginal increases in
  *  accuracy. For example, see this discussion of step size from
- *  [Nadim Khalil's thesis](http://www.iue.tuwien.ac.at/phd/khalil/node14.html):
+ *  [Nadim Khalil's thesis](https://www.iue.tuwien.ac.at/phd/khalil/node14.html):
  *
  *  > It is also known that numerical differentiation is an unstable procedure
  *  > prone to truncation and subtractive cancellation errors. Decreasing the
@@ -73,8 +73,8 @@
  *  The `volatile` keyword ensures that the compiler's optimizer does not
  *  eliminate this reassignment process. For more information about this issue,
  *  see Section 5.7 of _Numerical Recipes in C_,
- *  [2nd Edition](http://s3.amazonaws.com/nrbook.com/book_C210.html) or
- *  [3rd Edition](http://numerical.recipes/book/book.html).
+ *  [2nd Edition](https://s3.amazonaws.com/nrbook.com/book_C210.html) or
+ *  [3rd Edition](https://numerical.recipes/book.html).
  *
  *  In BioCro, the Jacobian is almost always calculated for the case where
  *  \f$ \vec{f}(\vec{x}, t) = d \vec{x} / dt \f$. In this case, \f$ \vec{x} \f$
